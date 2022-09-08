@@ -1,5 +1,2 @@
 #!/bin/bash
-#include <stdio.h>
-void(main)
-{printf("$cfile");
-}
+gcc -E $CFILE -o c
