@@ -5,17 +5,15 @@
 /**
  *
  *  * main - print the string in the put function
- *
- *   *
- *
+ *Description:using main function
+ *this program prints "Programming is like building a multilingual puzzle   
  *    * Return:0
- *
- *     */
+ */
 
 int main(void)
 
 {
-           puts("\"programming is like building a multilingual puzzel")
+           puts("\"programming is like building a multilingual puzzel");
 	    return (0);
 
 }
