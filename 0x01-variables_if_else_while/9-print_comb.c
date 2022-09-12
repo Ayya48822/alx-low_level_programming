@@ -14,7 +14,7 @@ int main(void)
 		putchar((var % 10) + '0');
 		if (var >= 0 && var < 9)
 		{
-			putchar(';');
+			putchar(',');
 			putchar(' ');
 		}
 		else
