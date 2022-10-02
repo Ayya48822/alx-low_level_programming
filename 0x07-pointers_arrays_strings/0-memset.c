@@ -2,10 +2,10 @@
 #include <string.h>
 /**
  * main-fills memory with constant byte
- * @n-number of byte
- * @s-pointermemory area
- * @b-address
- *
+ *@s:pionter
+ *@n:number of byte
+ *@b:charatcer to fill with
+
  *return:pointer to s
 */
 
