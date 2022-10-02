@@ -1,16 +1,15 @@
-#include "stdio.h"
+#include "main.h"
 #include <string.h>
 
 /**
- * _memset-fills memory with constant byte
- *@s:pionter
- *@n:number of byte
- *@b:charatcer to fill with
-
- *return:pointer to s
+* _memset - fill the first n bytes of s with char at c
+* @s: the pointer to s
+* @b: characters to fill with
+* @n: the number of bytes
+*
+* Return: pointer to s
 */
-
 char *_memset(char *s, char b, unsigned int n)
-{	
-	return(memset(s, b, n));
-}
+{
+	return (memset(s, b, n));
+}	
