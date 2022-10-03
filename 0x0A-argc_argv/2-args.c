@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**                                                                                                        
 * main - print all arguments passes one after another
