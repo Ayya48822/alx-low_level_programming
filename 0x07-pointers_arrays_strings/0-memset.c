@@ -2,14 +2,14 @@
 #include <string.h>
 
 /**
-* _memset - fill the first n bytes of s with char at c
-* @s: the pointer to s
-* @b: characters to fill with
-* @n: the number of bytes
-*
-* Return: pointer to s
-*/
+ * _memset-fill memory with constant byte
+ * @s:pointer to memory area
+ * @b:constan byte
+ * @n:size of byte
+ *
+ * return:pointe to s
+ */
 char *_memset(char *s, char b, unsigned int n)
 {
-	return (memset(s, b, n));
-}	
+	return(memset(s, b, n));
+}
