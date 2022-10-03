@@ -1,1 +1,1 @@
-creat a function on argc and argc
+function that print a new line
