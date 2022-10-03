@@ -1,1 +1,1 @@
-function that print a new line
+program that print its name followed by new line
