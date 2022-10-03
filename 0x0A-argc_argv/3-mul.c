@@ -1,14 +1,15 @@
-#include <stdio.h>                                                                                         
+#include <stdio.h>
 #include <stdlib.h>
 
-/**                                                                                                        * main - multiply two arguments                                                                           
+/**
+* main - multiply two arguments
 * @argc: size of array argument
-* @argv: the array arguments                                                                              
- *
- * Return: 0                                                                                               
-*/ 
+* @argv: the array arguments
+*
+* Return: 0
+*/
 
-int main(int argc, char **argv)                                                                            
+int main(int argc, char **argv)
 {
 	int num1, num2, product;
 
@@ -22,5 +23,5 @@ int main(int argc, char **argv)
 	product = num1 * num2;
 
 	printf("%d\n", product);
-	return(0);
+	return (0);
 }
