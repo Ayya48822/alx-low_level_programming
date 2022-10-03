@@ -1,1 +1,1 @@
-program that print its name followed by new line
+count the arguments that passes throug
