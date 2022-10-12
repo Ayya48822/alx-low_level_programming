@@ -1,18 +1,16 @@
-#include <stdio.h>
+#ifndef DOG_H_
+#define DOG_H_
 
+/**
+*struct dog - structure definition of a dog
+*@name: character string
+*@age:age interger
+*@owner:character string
+*/
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 };
-
-int main(void)
-{
-	struct dog;
-
-	dog.name = "Poppy";
-	dog.age = 3.5;
-	dog.owner = "Bob";
-	return (0);
-}
+#endif
