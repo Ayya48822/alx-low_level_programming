@@ -4,7 +4,7 @@
  * list_len - number of elements in a linked
  * @h: the header pointer
  *
- * Return:number of element
+ * Return:counter
  */
 
 size_t list_len(const list_t *h)
